@@ -1,0 +1,40 @@
+/* Title Bar */
+.title-bar-text {
+  color: var(--text-primary);
+}
+
+/* Side Drawer */
+.drawer * {
+  color: var(--accent-color);
+}
+
+/* Confirm Dialog */
+.dialog-box .MuiDialog-paper {
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+}
+.dialog-box .MuiTypography-root {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+.dialog-box .cancel-btn {
+  color: var(--accent-color);
+}
+.dialog-box .confirm-btn {
+  color: #d32f2f;
+}
+
+/* Inner Container */
+.main-content > * {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.sidebar {
+  border-top-left-radius: 1rem;
+  border-right: 0.2rem solid var(--bg-primary);
+}
+
+.sidebar * {
+  color: var(--text-primary);
+}

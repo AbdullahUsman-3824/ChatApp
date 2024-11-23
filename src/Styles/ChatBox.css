@@ -1,0 +1,59 @@
+/* Styling for the custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Chat Title */
+.chat-title {
+  color: var(--text-primary);
+}
+
+/* Message Bubble */
+.message-bubble {
+  color: var(--text-primary);
+}
+
+.message-bubble .message-time {
+  color: var(--text-secondary);
+}
+
+/* Message Bar */
+.message-input .MuiOutlinedInput-root {
+  background-color: #2c2a33;
+  border-radius: 8px;
+}
+
+.message-input .MuiOutlinedInput-notchedOutline {
+  border-color: #2c2a33;
+}
+
+.message-input .MuiInputLabel-root {
+  color: #bbbbbb;
+}
+
+.message-input .MuiOutlinedInput-input {
+  color: var(--text-primary);
+}
+
+.message-bar svg {
+  font-size: 2rem;
+}
+
+.message-bar button {
+  background-color: var(--accent-color);
+}
